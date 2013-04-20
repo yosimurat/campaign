@@ -1,0 +1,139 @@
+body {
+    padding:0;
+    background:#FFFFFF;
+}
+
+td, th {
+  font-size: small;
+  font-weight:normal;
+}
+.title {
+  font-size: large;
+  font-weight: bold;
+  color: #5671A0;
+}
+.small {
+  font-size: 70%;
+  color: white;
+}
+.small a, small a:visited {
+  color: white;
+}
+.smalltitle {
+  font-size: small;
+  font-weight: bold;
+  color: #5671A0;
+}
+.toolbar {
+  padding: 4px;
+  background-color: #7694C8;
+}
+.left {
+  text-align: left;
+}
+.right {
+  text-align: right;
+}
+.box {
+  border: thin solid #7694C8;
+}
+.label {
+  background-color: #ffffcc;
+}
+.error {
+  background-color: red;
+  color: white;
+}
+.display {
+  display: inline;
+}
+.notdisplay {
+  display: none;
+}
+
+.level0 {
+}
+.level1 {
+}
+
+.body {
+    margin-left:188px;
+}
+.header {
+    padding:4px;
+}
+.menu {
+    background:#FC0;
+    padding:0;
+    position:absolute;
+    width:120px;
+    top:145px;
+}
+.tablebg {
+}
+
+.tablebg th{
+  background-color: #EEFF8B;
+  border: thin solid #C0C0C0;
+}
+
+.tablebg td{
+  background-color: #FFFFFF;
+  border: thin solid #C0C0C0;
+  padding:5px 3px;
+}
+
+.tablebg input,.tablebg select, p{
+  margin-bottom:0px;
+}
+
+
+.row_odd {
+    background-color: #EEFF8B;
+}
+.row_even {
+    background-color: white;
+}
+
+
+input.short{
+	width:100px;
+}
+
+input.long{
+	width:400px;
+
+}
+
+input.zip{
+	width:60px;
+	ime-mode:disabled;
+}
+
+input.tel{
+	width:40px;
+	ime-mode:disabled;
+}
+
+input.email{
+	width:400px;
+	ime-mode:disabled;
+}
+.shortLabel{
+	width:40px;
+	display:inline-block;
+	text-align:right;
+}
+
+label{
+	display:inline;
+}
+
+input.err, select.err{
+	background-color: #ffcccc;
+}
+
+p.err{
+	color:red;
+}
+
